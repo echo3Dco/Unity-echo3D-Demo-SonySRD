@@ -13,7 +13,8 @@ Import an external 3D asset into a Sony Spatial Reality Display (SRD) project i
 * Open the sample project in Unity
 * Open the 'SRDisplaySimpleSample' scene under: Assets/SRDisplayUnityPlugin/Samples/1_SRDSimpleSample/Scenes/
   
-![a](https://cdn-images-1.medium.com/max/800/1*0Yoe15VaX0poQ7NQW7NEPw.png)
+![image](https://github.com/echo3Dco/Unity-echo3D-Demo-SonySRD/assets/51488480/696d1bda-a6d1-46bc-a7cb-2c13c1eefc26)
+
 * Select the 'echo3DHologram' object in the Hierarchy and add the [API key and entry ID](https://docs.echo3d.co/quickstart/access-the-console) in the Inspector.
 
 ![image](https://github.com/echo3Dco/Unity-echo3D-Demo-SonySRD/assets/51488480/efad6cf2-5679-4e36-9a25-881e0662433e)
