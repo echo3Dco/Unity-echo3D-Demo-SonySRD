@@ -5,7 +5,7 @@ Import an external 3D asset into a Sony Spatial Reality Display (SRD) project i
 
 ## Setup
 * Built with [Unity 2021.3.25f1](https://unity3d.com/get-unity/download/archive) (Note: The echo3D Unity SDK requires 2020.3.25+).
-* [Register](https://www.echo3d.com/signup?utm_term={keyword}&utm_campaign=weapons_tutorial&utm_source=medium&utm_medium=blog) for FREE at echo3D.
+* [Register](https://www.echo3d.com/signup?utm_term={keyword}&utm_campaign=sonysdr_tutorial&utm_source=medium&utm_medium=blog) for FREE at echo3D.
 * Clone this repo to view the sample project. The SDK has already been installed. Just upload the models to the echo3D console and add the API key and entry IDs (see below).
 
 ## Steps
