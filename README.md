@@ -5,10 +5,11 @@ Import an external 3D asset into a Sony Spatial Reality Display (SRD) project i
 
 ## Setup
 * Built with [Unity 2021.3.25f1](https://unity3d.com/get-unity/download/archive) (Note: The echo3D Unity SDK requires 2020.3.25+).
-* [Register](https://www.echo3d.com/signup?utm_term={keyword}&utm_campaign=sonysdr_tutorial&utm_source=medium&utm_medium=blog) for FREE at echo3D.
+* [Register](https://www.echo3d.com/signup?utm_term={keyword}&utm_campaign=sonysdr_tutorial&utm_source=medium&utm_medium=blog) for a FREE echo3D account.
 * Clone this repo to view the sample project. The SDK has already been installed. Just upload the models to the echo3D console and add the API key and entry IDs (see below).
+* Install the SRD Unity Plugin by following the instructions [here](https://www.sony.net/Products/Developer-Spatial-Reality-display/en/develop/Unity/Quickstart.html),
 
-## Steps
+## echo3D Configuration
 * [Upload](https://docs.echo3d.co/quickstart/add-a-3d-model) the 'Skyscraper' model from the Models folder in the Unity project to the echo3D console.
 * Open the sample project in Unity
 * Open the 'SRDisplaySimpleSample' scene under: Assets/SRDisplayUnityPlugin/Samples/1_SRDSimpleSample/Scenes/
@@ -25,6 +26,24 @@ Import an external 3D asset into a Sony Spatial Reality Display (SRD) project i
 
 * In the echo3D console, double-click on the 'Skyscraper' card and go to '[Metadata](https://docs.echo3d.com/unity/transforming-content)'.
 * Add 'scale' with value 20.
+
+## SRD Configuration
+* Adjust the SRDisplay by setting the Uniform scale the SRDisplay Manager to 100. Adjust UI elements as needed. If you intend to support both wallmount mode and standard mode, please toggle Is Wallmount Mode on the SRDisplay settings in the Inspector.
+* Creating a mouse pointer as regular 2D mouse pointers won’t work on the SRD as the SRD is in 3D Space. Please use the Pointer script provided in the SRD Plugin to create a 3D mouse pointer.
+  
+![image](https://i.imgur.com/Y9KEBEe.png)
+
+* Assign the mouse pointer event in the SRD Graphic Raycaster script according to the image below. The SRD Graphic Raycaster script should replace the Graphic Raycaster script on the Canvas.
+
+![image](https://i.imgur.com/PbHgQeF.png)
+
+* Adjust the Event System to help the SRD cameras detect controller input. In the Event System game object, replace the Standalone Input Module with the SRD Standalone Input Module from the SRD plugin. SRD Standalone Input Module extends Standalone Input Module.
+
+![image](https://i.imgur.com/JIfsbmQ.png)
+
+* Adjust UI view space to SRD to make sure 2D UI elements show up on the SRD. Adjust all UI elements to the SRD’s view space. Create a parent for the Canvas. Attach the SRD View Space Scale Follower to said parent.
+
+![image](https://i.imgur.com/aWo7C60.png)
 
 ## Run
 Connect your Sony SRD and click Play in Unity to watch the building appear.
