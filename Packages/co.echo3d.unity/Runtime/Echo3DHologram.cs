@@ -75,7 +75,6 @@ public class Echo3DHologram : MonoBehaviour
         bool userDefinedQuery = !string.IsNullOrWhiteSpace(queryURL) && queryOnly;
         // Get key from input
         InputField iField = (InputField)FindObjectOfType(typeof(InputField));
-        // iField.text = "solitary-fog-7345";
         apiKey = iField.text;
         if (!userDefinedQuery && (string.IsNullOrWhiteSpace(apiKey) || apiKey.Equals(API_KEY_PLACEHOLDER)))
         {
