@@ -56,8 +56,10 @@ Import an external 3D asset into a Sony Spatial Reality Display (SRD) project i
 ![image](https://github.com/echo3Dco/Unity-echo3D-Demo-SonySRD/assets/51488480/19a88d93-51ee-405e-bb9a-3085c47ae090)
 
 * Watch the building appear.
+  
+* **That's it!** 🎉"
 
-**No SRD?** 
+### No SRD?
 
 ![image](https://github.com/echo3Dco/Unity-echo3D-Demo-SonySRD/assets/51488480/178b87cd-7c45-4db0-bc10-4f0b2d6925e7)
 
