@@ -7,7 +7,7 @@ Import an external 3D asset into a Sony Spatial Reality Display (SRD) project i
 * Built with [Unity 2021.3.25f1](https://unity3d.com/get-unity/download/archive) (Note: The echo3D Unity SDK requires 2020.3.25+).
 * [Register](https://www.echo3d.com/signup?utm_term={keyword}&utm_campaign=sonysdr_tutorial&utm_source=medium&utm_medium=blog) for a FREE echo3D account.
 * Clone this repo to view the sample project. The echo3D SDK has already been installed.
-* Install the SRD Unity Plugin by following the instructions [here](https://www.sony.net/Products/Developer-Spatial-Reality-display/en/develop/Unity/Quickstart.html),
+* Install the SRD Unity Plugin by following the instructions [here](https://www.sony.net/Products/Developer-Spatial-Reality-display/en/develop/Unity/Quickstart.html).
 
 ## echo3D Configuration
 * [Upload](https://docs.echo3d.co/quickstart/add-a-3d-model) the 'Skyscraper' model from the Models folder in the Unity project to the echo3D console.
