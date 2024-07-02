@@ -43,7 +43,7 @@ Import an external 3D asset into a Sony Spatial Reality Display (SRD) project i
 
 * Make sure the SRD canvas Render Mode is set to World Space.
 
-* ![image](https://i.imgur.com/gtdYmtd.png)
+![image](https://i.imgur.com/gtdYmtd.png)
 
 * Adjust UI view space to SRD to make sure 2D UI elements show up on the SRD. Adjust all UI elements to the SRD’s view space. Create a parent for the Canvas. Attach the SRD View Space Scale Follower to said parent.
 
