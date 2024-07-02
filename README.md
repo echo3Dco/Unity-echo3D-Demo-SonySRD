@@ -28,7 +28,7 @@ Import an external 3D asset into a Sony Spatial Reality Display (SRD) project i
 * Add 'scale' with value 20.
 
 ## SRD Configuration
-* Adjust the SRDisplay by setting the Uniform scale the SRDisplay Manager to 100. Adjust UI elements as needed. If you intend to support both wallmount mode and standard mode, please toggle Is Wallmount Mode on the SRDisplay settings in the Inspector.
+* Adjust the SRDisplay by setting the Uniform scale of the SRDisplay Manager to 100 using the SRD View Space Scale slider. Adjust UI elements as needed. If you intend to support both wallmount mode and standard mode, please toggle Is Wallmount Mode on the SRDisplay settings in the Inspector.
 * Creating a mouse pointer as regular 2D mouse pointers won’t work on the SRD as the SRD is in 3D Space. Please use the Pointer script provided in the SRD Plugin to create a 3D mouse pointer.
   
 ![image](https://i.imgur.com/Y9KEBEe.png)
@@ -74,6 +74,10 @@ Import an external 3D asset into a Sony Spatial Reality Display (SRD) project i
 * Select the 'echo3DHologram' object in the Hierarchy.
   
 ![image](https://github.com/echo3Dco/Unity-echo3D-Demo-SonySRD/assets/51488480/efad6cf2-5679-4e36-9a25-881e0662433e)
+
+* Enable the Echo3DHologram gameobject.
+
+![image](https://imgur.com/F4LuvLa.png)
 
 * Right-click the 'Echo 3D Hologram (Script)' in the Inspector and click 'Edit Script'.
 
