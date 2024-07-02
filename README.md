@@ -7,7 +7,7 @@ Import an external 3D asset into a Sony Spatial Reality Display (SRD) project i
 * Built with [Unity 2021.3.25f1](https://unity3d.com/get-unity/download/archive) (Note: The echo3D Unity SDK requires 2020.3.25+).
 * [Register](https://www.echo3d.com/signup?utm_term={keyword}&utm_campaign=sonysdr_tutorial&utm_source=medium&utm_medium=blog) for a FREE echo3D account.
 * Clone this repo to view the sample project. The echo3D SDK has already been installed.
-* Install the SRD Unity Plugin by following the instructions [here](https://www.sony.net/Products/Developer-Spatial-Reality-display/en/develop/Unity/Quickstart.html).
+* Install the SRD Unity Plugin by following this [link](https://www.sony.net/Products/Developer-Spatial-Reality-display/en/develop/Setup/DownloadInfo.html).
 
 ## echo3D Configuration
 * [Upload](https://docs.echo3d.co/quickstart/add-a-3d-model) the 'Skyscraper' model from the Models folder in the Unity project to the echo3D console.
@@ -41,13 +41,21 @@ Import an external 3D asset into a Sony Spatial Reality Display (SRD) project i
 
 ![image](https://i.imgur.com/JIfsbmQ.png)
 
+* Make sure the SRD canvas Render Mode is set to World Space.
+
+![image](https://i.imgur.com/gtdYmtd.png)
+
 * Adjust UI view space to SRD to make sure 2D UI elements show up on the SRD. Adjust all UI elements to the SRD’s view space. Create a parent for the Canvas. Attach the SRD View Space Scale Follower to said parent.
 
 ![image](https://i.imgur.com/aWo7C60.png)
 
 ## Run
 
-* Connect your Sony SRD and click 'Play' in Unity.
+* Connect your Sony SRD.
+  
+* In the top menu under SpatialRealityDisplay, enable SRDisplay GameView (Full Screen).
+
+* Click 'Play' in Unity.
 
 * Set your API key on the Input Field.
 
