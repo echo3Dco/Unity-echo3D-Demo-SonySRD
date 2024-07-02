@@ -54,7 +54,7 @@ Import an external 3D asset into a Sony Spatial Reality Display (SRD) project i
 * Connect your Sony SRD.
   
 * In the top menu under SpatialRealityDisplay, enable SRDisplay GameView (Full Screen).
-* 
+
 * Click 'Play' in Unity.
 
 * Set your API key on the Input Field.
