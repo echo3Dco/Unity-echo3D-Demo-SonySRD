@@ -39,9 +39,11 @@ Import an external 3D asset into a Sony Spatial Reality Display (SRD) project i
 
 * Adjust the Event System to help the SRD cameras detect controller input. In the Event System game object, replace the Standalone Input Module with the SRD Standalone Input Module from the SRD plugin. SRD Standalone Input Module extends Standalone Input Module.
 
-* Make sure Canvas is set to World Space.
-
 ![image](https://i.imgur.com/JIfsbmQ.png)
+
+* Make sure the SRD canvas Render Mode is set to World Space.
+
+* ![image](https://i.imgur.com/gtdYmtd.png)
 
 * Adjust UI view space to SRD to make sure 2D UI elements show up on the SRD. Adjust all UI elements to the SRD’s view space. Create a parent for the Canvas. Attach the SRD View Space Scale Follower to said parent.
 
@@ -49,7 +51,11 @@ Import an external 3D asset into a Sony Spatial Reality Display (SRD) project i
 
 ## Run
 
-* Connect your Sony SRD and click 'Play' in Unity.
+* Connect your Sony SRD.
+  
+* In the top menu under SpatialRealityDisplay, enable SRDisplay GameView (Full Screen).
+* 
+* Click 'Play' in Unity.
 
 * Set your API key on the Input Field.
 
