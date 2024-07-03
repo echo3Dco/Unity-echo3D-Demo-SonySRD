@@ -14,7 +14,7 @@ Import an external 3D asset into a Sony Spatial Reality Display (SRD) project i
 * [Disable](https://docs.echo3d.com/web-console/manage-pages/collections-and-sharing-page/security#api-token) the Collection's API token / security key / secret key.
 
 * Open the sample project in Unity
-* Open the 'SRDisplaySimpleSample' scene under: Assets/SRDisplayUnityPlugin/Samples/1_SRDSimpleSample/Scenes/
+* Open the 'SRDisplaySimpleSample' scene under Assets
   
 ![image](https://github.com/echo3Dco/Unity-echo3D-Demo-SonySRD/assets/51488480/696d1bda-a6d1-46bc-a7cb-2c13c1eefc26)
 
